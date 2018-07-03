@@ -14,13 +14,20 @@ More info comming soon!
 
 Each template is organized using the following folder structure:
 
-    assets: design assets — example: images, fonts and icons
-    blocks: reusable blocks of JSON-T (AKA partials) — ex: navigation.block
-    collections: collection files — [collection].list, [collection].item, [collection].conf
-    scripts: Javascript files — site.js
-    styles: stylesheet files — styles.css, styles.less
-    [root]: sitewide files — site.region, template.conf
+```
+/assets/css/
+/assets/js/
+/blocks/
+/block-templates/
+/views/layouts/
+/views/layouts/data/
+/views/partials/
+```
 
-#### Essential Files
+### Essential Files
 
-At the very minimum, your template needs a .region file and a template.conf.
+At the very minimum, your template needs a `template.conf` and a `default.php` in the layouts folder.
+
+### Anatomy of the Template.conf
+
+Comming soon!
