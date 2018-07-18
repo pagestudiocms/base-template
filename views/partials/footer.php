@@ -5,7 +5,7 @@
                     <div class="col-md-12">
                         <p class="m-0 text-center">Copyright &copy; {{ globals.site.title }} {{ helper:date format="Y" }}</p>
                         <div class="made-by">
-                            Powered By <a href="#" target="_blank">PageStudioCMS v1.4.0
+                            Powered By <a href="#" target="_blank">PageStudioCMS v1.4.0</a>
                         </div>
                     </div>
                 </div>

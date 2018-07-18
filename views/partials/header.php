@@ -38,7 +38,7 @@
                         </button>
                     </div>
                     <div class="navbar-offcanvas navbar-offcanvas-touch" id="js-bootstrap-offcanvas">
-                        <navigations:nav nav_id="1" class="nav navbar-nav navbar-right" framework="bootstrap" />                    
+                        <navigations:nav nav_id="1" class="nav navbar-nav navbar-right" framework="bootstrap" />
                     </div>
                 </div>
             </nav>
