@@ -4,10 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    
-    {{ builder:template_head }}
-    
-    {{ template:head }}
+        
+    {{ template:headers }}
 
 </head>
 <body id="{{ globals.page.id }}" class="body-offcanvas {{ globals.page.css }}" data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
@@ -24,8 +22,12 @@
                 <div class="container-fluid">
                     <div class="navbar-header">
                         <a href="{{ site_url }}" class="navbar-brand">
-                            <!-- <img style="width: 40px; height: 40px; margin-top: -5px; margin-right: 3px; float: left; {{logo-image-display}}" src="{{ globals.site.logo }}"> -->
-                            {{ globals.site.title }}
+                            {{ if globals.site.logo }}
+                                <img src="{{ globals.site.logo }}" class="site-logo-image" alt="{{ globals.site.title }}"
+                                    style="{{logo-image-display}}" />
+                            {{ else }}
+                                {{ globals.site.title }}
+                            {{ endif }}
                             <span class="hidden-sm text-muted" style="font-size:13px;">{{ globals.site.slogan }}</span>
                         </a>
                         <button type="button" class="navbar-toggle offcanvas-toggle pull-right" data-toggle="offcanvas" data-target="#js-bootstrap-offcanvas" style="float:left;">

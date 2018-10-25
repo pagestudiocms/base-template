@@ -1,4 +1,4 @@
-{{ theme:partial name="header" }}
+{{ template:partial name="header" }}
 
     <!-- cms content injection point -->
     <main class="content-container" role="main" data-content-field="main-content">
@@ -7,4 +7,4 @@
         </div>
     </main>
     
-{{ theme:partial name="footer" }}
+{{ template:partial name="footer" }}

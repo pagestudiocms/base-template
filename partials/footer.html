@@ -14,13 +14,7 @@
 
     </div> <!-- end .site-container -->
     
-    {{ builder:template_footer }}
-
-<!-- JavaScript
-====================================================== -->        
-    
-    <!-- Core JavaScript Files -->
-    {{ template:footer }}
+    {{ template:footers }}
 
 </body>
 </html>
